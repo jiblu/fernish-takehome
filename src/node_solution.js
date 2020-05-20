@@ -25,8 +25,13 @@ data['tables'].forEach(table => {
   }
 })
 
-for (let i = 0; i < parties.length; i++) {
-  console.log(`${parties[i]} at ${tables[i]}`)
+if (parties.length > tables.length) {
+  console.log(`We do not have enough seats!`)
+} else {
+  for (let i = 0; i < parties.length; i++) {
+    console.log(`${parties[i]} at ${tables[i]}`)
+  }
 }
+
 
 // console.log('data =', data);
