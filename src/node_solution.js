@@ -31,9 +31,13 @@ if (partiesCount > seatsCount) {
   for (let i = 0; i < data.parties.length; i++) {
     let party = data.parties[i]
     if (party.hasOwnProperty('tableSeed')) {
-      while (party.count > 0) {
-        console.log(`${party.partyName} at ${party.tableSeed}`)
-        party.count--
+      if (!deductSeat(party.tableSeed, party.count)) {
+        console.log(`${party.tableSeed} does not have enough seats!`)
+      } else {
+        while (party.count > 0) {
+          console.log(`${party.partyName} at ${party.tableSeed}`)
+          party.count--
+        }
       }
       deductSeat(party.tableSeed, party.count)
     } else {
