@@ -1,0 +1,33 @@
+{
+  "parties" : [
+  
+    {
+      "id": 2,
+      "partyName": "Smith",
+      "count": 3,
+      "tableSeed": "Table 1",
+      "priority": 0,
+      "blacklist": []
+    },
+    {
+      "id": 3,
+      "partyName": "Rodriguez",
+      "count": 6,
+      "tableSeed": null,
+      "priority": 1,
+      "blacklist": [2]
+    }
+  ],
+  "tables" : [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 10,
+      "rank": 0
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 10,
+      "rank": 0
+    }
+    ]
+  }

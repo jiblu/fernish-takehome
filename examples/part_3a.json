@@ -1,0 +1,31 @@
+{
+  "parties": [
+    {
+      "partyName": "Smith",
+      "count": 2,
+      "priority": 0
+    },
+    {
+      "partyName": "Rodriguez",
+      "count": 2,
+      "priority": 1
+    },
+    {
+      "partyName": "Patel",
+      "count": 2,
+      "priority": 2
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 4,
+      "rank": 1
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 4,
+      "rank": 0
+    }
+  ]
+}

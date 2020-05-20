@@ -1,0 +1,24 @@
+{
+  "parties": [
+    {
+      "partyName": "Patel",
+      "count": 4,
+      "tableSeed": "Table 2"
+    },
+    {
+      "partyName": "Lee",
+      "count": 4,
+      "tableSeed": null
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 3
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 5
+    }
+  ]
+}

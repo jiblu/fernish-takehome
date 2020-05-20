@@ -1,0 +1,24 @@
+{
+  "parties": [
+    {
+      "partyName": "Rodriguez",
+      "count": 4,
+      "tableSeed": "Table 2"
+    },
+    {
+      "partyName": "Smith",
+      "count": 4,
+      "tableSeed": "Table 2"
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 6
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 6
+    }
+  ]
+}

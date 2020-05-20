@@ -1,0 +1,27 @@
+{
+  "parties": [
+    {
+      "id": 2,
+      "partyName": "Patel",
+      "count": 3,
+      "tableSeed": null,
+      "priority": 0,
+      "blacklist": []
+    },
+    {
+      "id": 3,
+      "partyName": "Lee",
+      "count": 6,
+      "tableSeed": null,
+      "priority": 1,
+      "blacklist": [2]
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 10,
+      "rank": 0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parties": [
+    {
+      "partyName": "Rodriguez",
+      "count": 2,
+      "priority": 0
+    },
+    {
+      "partyName": "Patel",
+      "count": 2,
+      "priority": 1
+    },
+    {
+      "partyName": "Lee",
+      "count": 2,
+      "priority": 2
+    },
+    {
+      "partyName": "Abara",
+      "count": 2,
+      "tableSeed": "Table 2"
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 3,
+      "rank": 2
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 3,
+      "rank": 1
+    },
+    {
+      "tableName": "Table 3",
+      "numberOfSeats": 3,
+      "rank": 0
+    }
+  ]
+}

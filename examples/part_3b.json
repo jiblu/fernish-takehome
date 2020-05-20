@@ -1,0 +1,36 @@
+{
+  "parties": [
+    {
+      "partyName": "Lee",
+      "count": 2,
+      "priority": 0
+    },
+    {
+      "partyName": "Abara",
+      "count": 2,
+      "priority": 0
+    },
+    {
+      "partyName": "Smith",
+      "count": 2,
+      "priority": 1
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 2,
+      "rank": 0
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 2,
+      "rank": 1
+    },
+    {
+      "tableName": "Table 3",
+      "numberOfSeats": 2,
+      "rank": 2
+    }
+  ]
+}

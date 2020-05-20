@@ -1,0 +1,19 @@
+{
+  "parties": [
+    {
+      "partyName": "Abara",
+      "count": 2,
+      "tableSeed": "Table 2"
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 4
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 4
+    }
+  ]
+}

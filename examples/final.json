@@ -1,0 +1,112 @@
+{
+  "parties" : [
+    {
+      "id": 1,
+      "partyName": "Lucky",
+      "count": 2,
+      "tableSeed": "Table 1",
+      "blacklist": []
+    },
+    {
+      "id": 2,
+      "partyName": "Hank",
+      "count": 3,
+      "tableSeed": "Table 1",
+      "blacklist": [4]
+    },
+    {
+      "id": 3,
+      "partyName": "Cotton",
+      "count": 6,
+      "tableSeed": null,
+      "priority": 1,
+      "blacklist": [2,4,11]
+    },
+    {
+      "id": 4,
+      "partyName": "Maddy",
+      "count": 2,
+      "tableSeed": null,
+      "priority": 1,
+      "blacklist": []
+    },
+    {
+      "id": 5,
+      "partyName": "Dale",
+      "count": 3,
+      "tableSeed": "Table 2",
+      "blacklist": [6]
+    },
+    {
+      "id": 6,
+      "partyName": "Redcorn",
+      "count": 3,
+      "tableSeed": null,
+      "priority": 3,
+      "blacklist": []
+    },
+    {
+      "id": 7,
+      "partyName": "Bill",
+      "count": 2,
+      "tableSeed": "Table 2",
+      "blacklist": []
+    },
+    {
+      "id": 8,
+      "partyName": "Boomhauer",
+      "count": 2,
+      "tableSeed": "Table 2",
+      "blacklist": []
+    },
+    {
+      "id": 9,
+      "partyName": "Strickland",
+      "count": 4,
+      "tableSeed": null,
+      "priority": 2,
+      "blacklist": [11]
+    },
+    {
+      "id": 10,
+      "partyName": "Stroup",
+      "count": 1,
+      "tableSeed": null,
+      "priority": 2,
+      "blacklist": [7]
+    },
+    {
+      "id": 11,
+      "partyName": "Khan",
+      "count": 3,
+      "tableSeed": null,
+      "priority": 3,
+      "blacklist": [2]
+    } ],
+  "tables" : [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 6,
+      "rank": 0
+    },
+    {
+      "tableName": "Table 2",
+      "numberOfSeats": 7,
+      "rank": 1
+    },
+    {
+      "tableName": "Table 3",
+      "numberOfSeats": 8,
+      "rank": 2
+    },
+    {
+      "tableName": "Table 4",
+      "numberOfSeats": 6,
+      "rank": 3
+    },
+    {
+      "tableName": "Table 5",
+      "numberOfSeats": 6,
+      "rank": 4
+    }]
+  }

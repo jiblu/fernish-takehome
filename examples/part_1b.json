@@ -1,0 +1,14 @@
+{
+  "parties": [
+    {
+      "partyName": "Lee",
+      "count": 5
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Table 1",
+      "numberOfSeats": 4
+    }
+  ]
+}
