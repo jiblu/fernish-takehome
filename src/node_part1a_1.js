@@ -25,7 +25,7 @@ data['tables'].forEach(table => {
 })
 
 for (let i = 0; i < parties.length; i++) {
-  console.log(`${parties[i]} ${tables[i]}`)
+  console.log(`${parties[i]} at ${tables[i]}`)
 }
 
 // console.log('data =', data);
